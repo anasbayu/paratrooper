@@ -47,12 +47,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistanceFogIntensity: 0.95
-    - _DistanceHeightBlend: 0.5
-    - _Far: 250
-    - _HeightFogIntensity: 0.9
-    - _HighWorldY: 50
-    - _LowWorldY: -25
+    - _DistanceFogIntensity: 0.98
+    - _DistanceHeightBlend: 0.25
+    - _Far: 75
+    - _HeightFogIntensity: 0.99
+    - _HighWorldY: 25
+    - _LowWorldY: -20
     - _Near: 0
     m_Colors: []
   m_BuildTextureStacks: []
@@ -101,8 +101,8 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 3
   near: 0
-  far: 250
-  distanceFogIntensity: 0.95
+  far: 75
+  distanceFogIntensity: 0.98
   useHeight: 1
   heightGradient:
     serializedVersion: 2
@@ -134,11 +134,11 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 3
     m_NumAlphaKeys: 3
-  low: -25
-  high: 50
-  heightFogIntensity: 0.9
+  low: -20
+  high: 25
+  heightFogIntensity: 0.99
   cameraRelativePosition: 0
-  distanceHeightBlend: 0.5
+  distanceHeightBlend: 0.25
   renderEvent: 550
   applyInSceneView: 1
-  effectMaterial: {fileID: 0}
+  effectMaterial: {fileID: -5893212418065708504}
