@@ -7,6 +7,8 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance { get; private set; }
     int score;
     public TMP_Text scoreText;
+    public TMP_Text highScoreText; // at the game over screen
+    public TMP_Text currentScoreText;   // at the game over screen
 
     void Awake()
     {
@@ -23,6 +25,7 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         score = 0;
+        highScoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
         UpdateScoreText();
     }
 
@@ -36,7 +39,8 @@ public class ScoreManager : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Score: " + score;
+            scoreText.text = score.ToString();
+            currentScoreText.text = score.ToString();
         }
         else
         {
@@ -48,5 +52,16 @@ public class ScoreManager : MonoBehaviour
     {
         score = 0;
         UpdateScoreText();
+    }
+
+    public void CalculateEndGameScore()
+    {
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+        if (score > highScore)
+        {
+            PlayerPrefs.SetInt("HighScore", score);
+            PlayerPrefs.Save();
+            highScoreText.text = score.ToString();
+        }
     }
 }

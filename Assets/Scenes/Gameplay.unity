@@ -2229,6 +2229,7 @@ GameObject:
   - component: {fileID: 834405677}
   - component: {fileID: 834405679}
   - component: {fileID: 834405678}
+  - component: {fileID: 834405680}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -2293,6 +2294,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834405676}
   m_CullTransparentMesh: 1
+--- !u!225 &834405680
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834405676}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &847359560
 GameObject:
   m_ObjectHideFlags: 0
@@ -4601,6 +4614,7 @@ GameObject:
   - component: {fileID: 1564227821}
   - component: {fileID: 1564227823}
   - component: {fileID: 1564227822}
+  - component: {fileID: 1564227824}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -4665,6 +4679,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564227820}
   m_CullTransparentMesh: 1
+--- !u!225 &1564227824
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564227820}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1581512360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5857,6 +5883,7 @@ GameObject:
   - component: {fileID: 2003854756}
   - component: {fileID: 2003854758}
   - component: {fileID: 2003854757}
+  - component: {fileID: 2003854759}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -5921,6 +5948,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003854755}
   m_CullTransparentMesh: 1
+--- !u!225 &2003854759
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003854755}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2009404734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5968,6 +6007,9 @@ MonoBehaviour:
   currentLives: 0
   livesText: {fileID: 738795307}
   panelGameOver: {fileID: 727276763}
+  live1: {fileID: 2003854757}
+  live2: {fileID: 1564227822}
+  live3: {fileID: 834405678}
 --- !u!1 &2067327741
 GameObject:
   m_ObjectHideFlags: 0
@@ -6060,6 +6102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1141097899}
+  highScoreText: {fileID: 1192017322}
+  currentScoreText: {fileID: 669031392}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

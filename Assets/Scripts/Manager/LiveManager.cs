@@ -13,6 +13,7 @@ public class LiveManager : MonoBehaviour
     // References.
     public TMP_Text livesText;
     public CanvasGroup panelGameOver;
+    public Image live1, live2, live3;
 
     void Awake()
     {
@@ -30,11 +31,21 @@ public class LiveManager : MonoBehaviour
     {
         playerLives = GameConfig.Instance.PlayerLives;
         currentLives = playerLives;
+
+        live1.color = Color.white;
+        // live1.color.alpha = 1f;
+
+        live2.color = Color.white;
+        // live2..color.alpha = 1f;
+
+        live3.color = Color.white;
+        // live3..color.alpha = 1f;
     }
 
     public void ReduceLives()
     {
         currentLives--;
+
         if (currentLives <= 0)
         {
             currentLives = 0;
@@ -46,9 +57,17 @@ public class LiveManager : MonoBehaviour
 
     private void UpdateLivesText()
     {
-        if (livesText != null)
+        if (currentLives == 2)
         {
-            livesText.text = "Lives: " + currentLives;
+            live3.DOFade(0.15f, 0.5f);
+        }
+        else if (currentLives == 1)
+        {
+            live2.DOFade(0.15f, 0.5f);
+        }
+        else if (currentLives == 0)
+        {
+            live1.DOFade(0.15f, 0.5f);
         }
     }
 
@@ -59,6 +78,8 @@ public class LiveManager : MonoBehaviour
         
         if (panelGameOver != null)
         {
+            ScoreManager.Instance.CalculateEndGameScore();
+
             panelGameOver.DOFade(1, 0.5f).SetEase(Ease.OutSine).OnComplete(() =>
             {
                 panelGameOver.interactable = true;
