@@ -1,0 +1,23 @@
+# ninja log v5
+49	13860	7797027248501992	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f1aeb7288e858ee8
+196	1167	7797027121670020	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3c20885260a9d1e6
+1169	1818	7797027127917473	D:/Projects/Games/Paratrooper/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1l5o5aw1/obj/arm64-v8a/libswappywrapper.so	1d240a0a8e16af92
+128	13717	7797027247158122	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d046fc3157b280ea
+161	13174	7797027241595406	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	572e2662e9afef38
+146	13287	7797027242712046	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	38b23d9ea734efd7
+83	13411	7797027244054974	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	83f7462efdef1e6d
+96	13226	7797027242030640	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	682119ba08e312be
+179	13597	7797027245926344	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c93d466b3f433e48
+111	13277	7797027242529781	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	664803bcf719f811
+13861	14187	7797027251831981	D:/Projects/Games/Paratrooper/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1l5o5aw1/obj/arm64-v8a/libgame.so	b4f2766b642c7163
+443	2099	7797034190481171	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3c20885260a9d1e6
+2101	3960	7797034206843970	D:/Projects/Games/Paratrooper/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1l5o5aw1/obj/arm64-v8a/libswappywrapper.so	1d240a0a8e16af92
+291	5617	7797034225601443	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	572e2662e9afef38
+205	5731	7797034226536473	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	682119ba08e312be
+337	5782	7797034227384187	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	38b23d9ea734efd7
+162	5851	7797034227816811	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	664803bcf719f811
+192	5956	7797034229030837	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	83f7462efdef1e6d
+361	6335	7797034232986893	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c93d466b3f433e48
+236	6486	7797034234485605	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d046fc3157b280ea
+56	6884	7797034238467891	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f1aeb7288e858ee8
+6885	7251	7797034242258981	D:/Projects/Games/Paratrooper/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1l5o5aw1/obj/arm64-v8a/libgame.so	b4f2766b642c7163
